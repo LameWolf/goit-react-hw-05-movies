@@ -1,4 +1,3 @@
-import { FcSearch } from 'react-icons/fc';
 import s from 'styled-components';
 
 export const Wrapper = s.div`

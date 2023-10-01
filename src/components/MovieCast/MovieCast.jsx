@@ -15,7 +15,7 @@ import {
 const MovieCast = () => {
   const [movieCast, setMovieCast] = useState(null);
   const [isLoader, setIsLoader] = useState(false);
-  const [isError, setIsError] = useState(false);
+  const [, setIsError] = useState(false);
 
   const { movieId } = useParams();
 
